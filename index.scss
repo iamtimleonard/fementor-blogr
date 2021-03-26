@@ -105,6 +105,7 @@ $very-dark-black-blue: hsl(240, 10%, 16%);
     margin: 0.5rem;
     &:hover {
       background: $very-light-red;
+      color: $white;
     }
   }
   @at-root #{&}--visible {

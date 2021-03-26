@@ -21,8 +21,8 @@ const hideAllNavLists = () => {
 navToggle.addEventListener("click", (e) => {
   e.preventDefault();
   navMenu.classList.contains("nav--visible")
-    ? (hamburger.src = "./images/icon-close.svg")
-    : (hamburger.src = "./images/icon-hamburger.svg");
+    ? (hamburger.src = "./images/icon-hamburger.svg")
+    : (hamburger.src = "./images/icon-close.svg");
   navMenu.classList.toggle("nav--visible");
   hideAllNavLists();
 });
