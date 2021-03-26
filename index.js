@@ -54,6 +54,7 @@ window.addEventListener("resize", () => {
 const handleScroll = () => {
   if (document.documentElement.scrollTop > 400) {
     navBar.classList.add("nav--scrolled");
+    navMenu.classList.remove("nav--visible");
   } else {
     navBar.classList.remove("nav--scrolled");
   }
